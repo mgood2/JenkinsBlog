@@ -4,7 +4,8 @@
 require File.expand_path('../config/application', __FILE__)
 
 require 'ci/reporter/rake/rspec'
-
+require 'simplecov-rcov'
+SimpleCov.formatter = SimpleCov::Formatter::RcovFormatter
 
 begin
   require 'rspec/core/rake_task'
