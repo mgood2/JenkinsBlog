@@ -1,0 +1,5 @@
+
+--This line, and those below, will be ignored--
+
+D    migrate/20151004074041_add_unconfirmed_to_devise.rb
+A    migrate/20151004075311_add_confirmable_to_devise.rb
