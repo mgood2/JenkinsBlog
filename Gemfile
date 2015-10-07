@@ -31,6 +31,7 @@ gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 
 group :test do
+  gem 'rcov'
   gem 'simplecov'
   gem 'simplecov-rcov'
   gem 'ci_reporter_rspec'
