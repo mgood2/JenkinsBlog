@@ -3,8 +3,6 @@ class ArticlesController < ApplicationController
 
   def index
     @articles = Article.all
-    raise "hi"
-
   end
 
   def show
